@@ -1,6 +1,7 @@
 packages:
   - packages/*
   - web
+  - storybook
 catalog:
   "@eslint/eslintrc": ^3
   "@tailwindcss/postcss": ^4

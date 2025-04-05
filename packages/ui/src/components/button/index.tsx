@@ -1,8 +1,13 @@
 import React from "react";
 
-export const FButton = () => {
-    console.log('Button');
+export const FButton = (props:{
+    bgColor:string,
+    label:string
+}) => {
+    const {bgColor,label}=props;
     return (
-        <div>按钮jjjjj</div>
+        <span style={{background:bgColor}}>
+            <span>{label}</span>
+        </span>
     )
 };
